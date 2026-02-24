@@ -113,7 +113,7 @@ mainContainer.addEventListener("click",function(event){
     rendarInterview()
     }
 
-     else if (event.target.classList.contains("Rejected-btn")) {
+    else if (event.target.classList.contains("Rejected-btn")) {
         
 
     const parentNode = event.target.parentNode.parentNode
@@ -169,7 +169,8 @@ else if (event.target.closest(".delete")) {
 
     
 })
-
+     // No jobs Available logo section:
+     
 function showEmptyState(message) {
     filterCardSection.innerHTML = `
         <div class="flex flex-col items-center justify-center py-16 space-y-4">
